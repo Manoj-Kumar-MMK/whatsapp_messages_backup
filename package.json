@@ -1,0 +1,29 @@
+{
+	"name": "y",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"login": "node intialise.js",
+		"watch": "nodemon app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Manoj-Kumar-MMK/whatsapp_messages_backup.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Manoj-Kumar-MMK/whatsapp_messages_backup/issues"
+	},
+	"homepage": "https://github.com/Manoj-Kumar-MMK/whatsapp_messages_backup#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"qrcode-terminal": "^0.12.0",
+		"whatsapp-web.js": "^1.14.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.14"
+	}
+}
